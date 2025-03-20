@@ -26,3 +26,6 @@ The vision of this project is to revolutionize the way shopping lists are manage
 
 This README provides a comprehensive overview of the project and its objectives, paving the way for a decentralized and transparent shopping list management system.
 
+## contract Address:
+0x9AFc21a357b6F84FafaC33082dA352FDC203895A
+![image](https://github.com/user-attachments/assets/eb9275b4-951d-429a-9a37-81edceb30f1c)
