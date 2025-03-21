@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shared Shopping List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shared Shopping List</h1>
+
+    <!-- Create Shopping List Form -->
+    <div class="form-container">
+      <h2>Create a New Shopping List</h2>
+      <form id="createListForm">
+        <input type="text" id="listTitle" placeholder="Enter list title" required>
+        <button type="submit">Create List</button>
+      </form>
+    </div>
+
+    <!-- Add Item Form -->
+    <div class="form-container">
+      <h2>Add Item to List</h2>
+      <form id="addItemForm">
+        <input type="number" id="listId" placeholder="List ID" required>
+        <input type="text" id="itemName" placeholder="Enter item name" required>
+        <button type="submit">Add Item</button>
+      </form>
+    </div>
+
+    <!-- Mark Item as Purchased Form -->
+    <div class="form-container">
+      <h2>Mark Item as Purchased</h2>
+      <form id="markPurchasedForm">
+        <input type="number" id="purchaseListId" placeholder="List ID" required>
+        <input type="number" id="itemId" placeholder="Item ID" required>
+        <button type="submit">Mark Purchased</button>
+      </form>
+    </div>
+
+    <!-- Display Shopping Lists -->
+    <div class="lists-container">
+      <h2>Your Shopping Lists</h2>
+      <div id="shoppingLists"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
